@@ -13,18 +13,18 @@ Send this to the owner. Answers go into `knowledge/`, then into `AGENT_PROMPT.md
 ## 1. Rates 🔴 most important
 
 - Daily rate per category:
-  - Compact (Kia Rio): ____
-  - Full Mid-Size (Kia K3): ____
-  - Subcompact SUV (Kia Sonet): ____
-  - SUV (Hyundai Tucson): ____
-  - 7-seater SUV (Honda BRV): ____
-  - 11-seater Van (Hyundai Staria): ____
-- Weekly rate or discount? ____
-- Monthly / long-term rate? ____
-- **Currency — USD or AWG?** ____
-- Is tax included in the quoted price? If not, what is added? ____
-- Minimum rental period? ____
-- High-season dates and any surcharge? ____
+  - Compact (Kia Rio): 280
+  - Full Mid-Size (Kia K3): 320
+  - Subcompact SUV (Kia Sonet): 320
+  - SUV (Hyundai Tucson): 320
+  - 7-seater SUV (Honda BRV): 320
+  - 11-seater Van (Hyundai Staria): 800
+- Weekly rate or discount? No
+- Monthly / long-term rate? No
+- **Currency — USD or AWG?** USD
+- Is tax included in the quoted price? If not, what is added? 7%
+- Minimum rental period? No
+- High-season dates and any surcharge? No
 
 ## 2. Insurance 🔴 highest liability
 
@@ -36,16 +36,16 @@ Send this to the owner. Answers go into `knowledge/`, then into `AGENT_PROMPT.md
 
 ## 3. Driver requirements 🔴
 
-- Minimum driver age: ____   Maximum age, if any: ____
+- Minimum driver age: 18  Maximum age, if any: None
 - Young-driver fee, and the age range it applies to: ____
-- Is a foreign licence accepted? Is an International Driving Permit required? ____
+- Is a foreign licence accepted? Is an International Driving Permit required? yes
 - Minimum time the licence must have been held: ____
 - What documents are needed at pickup? ____
 - Additional driver allowed? Fee? Must they be present? ____
 
 ## 4. Payment and deposit 🔴
 
-- Accepted payment methods (cards, cash, currency): ____
+- Accepted payment methods (cards, cash, currency): cards, cash, USD & AWG
 - Security deposit amount: ____
 - How is it held (card hold / cash) and when is it released? ____
 
@@ -93,6 +93,6 @@ Send this to the owner. Answers go into `knowledge/`, then into `AGENT_PROMPT.md
 
 ## 10. Voice and limits
 
-- Preferred tone (formal / friendly / casual): ____
-- Languages beyond English and Spanish (Papiamento? Dutch?): ____
+- Preferred tone (formal / friendly / casual): Friendly
+- Languages beyond English and Spanish (Papiamento? Dutch?): Dutch, Portugues
 - **Anything the agent must never say or promise:** ____

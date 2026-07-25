@@ -6,11 +6,19 @@
 
 | Channel | Detail |
 |---|---|
-| WhatsApp | **+297 569 3180** — link: https://wa.me/2975693180 |
+| WhatsApp (website) | **+297 569 3180** — link: https://wa.me/2975693180 |
+| WhatsApp (agent line) | The Business number the agent runs on — customers messaging it are already in touch with Trac |
 | Email | **tracrentaruba@gmail.com** |
 | Facebook | https://www.facebook.com/profile.php?id=100095059729798 |
 | Instagram | https://www.instagram.com/tracrentaruba/ |
 | Website form | Collects **name and email only** |
+
+> ⚠️ **Trac operates more than one WhatsApp number.** The website publishes +297 569 3180;
+> the agent runs on a separate WhatsApp Business number. The agent must **never redirect a
+> customer to another number** — they are already talking to Trac, and moving them off this
+> thread takes them away from the conversation the team is monitoring. It should only mention
+> the website number if a customer specifically asks for it, and must never claim either one
+> is "the" official number.
 
 - **There is no voice telephone number published anywhere on the website.** If a customer
   asks to call, do not invent a number — offer WhatsApp and email, and hand off.

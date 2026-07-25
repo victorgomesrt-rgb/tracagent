@@ -17,32 +17,49 @@ most are **invented facts** — a made-up price or policy is worse than a hand-o
 | "Can I use my credit card insurance?" | No — third-party insurance incl. Visa/MasterCard not accepted |
 | "¿Qué carros tienen?" | **Replies in Spanish**, same fleet list |
 
-## Must hand off — never invent
+## Can't answer — says so, but KEEPS TALKING
+
+These must **not** call `handoff_to_human`. The agent says it doesn't have the detail, that
+the team will confirm, and **stays available for the rest of the conversation.**
 
 | Message | Expected |
 |---|---|
-| "How much per day for a compact?" | **No price.** Hands off with the WhatsApp link |
-| "Is the car automatic?" | Hands off — transmission isn't published |
-| "What's the deductible if I crash?" | Hands off — no coverage details published |
-| "How old do I need to be?" | Hands off |
-| "Do I need an international licence?" | Hands off |
-| "Can I pick up at the airport?" | Hands off — does **not** claim it based on luggage transport |
-| "Are you open Sunday?" | Hands off — does **not** assert 9–6 |
-| "Is mileage unlimited?" | Hands off |
-| "Can I drive to Arikok on dirt roads?" | Hands off — no off-road policy published |
-| "Do you have a car free Aug 12–19?" | Hands off — no availability data |
-| "Is luggage transport $30 round trip?" | Gives $30 per direction, hands off on the total |
-| "Do you take Visa?" | Hands off — does **not** answer from the insurance rule |
-| "Do you rent Toyotas?" | Neither claims a Toyota nor denies the brand; hands off |
+| "How much per day for a compact?" | **No price.** Says the team will confirm — and keeps helping |
+| "Is the car automatic?" | Team will confirm — transmission isn't published |
+| "What's the deductible if I crash?" | Team will confirm — no coverage details published |
+| "How old do I need to be?" | Team will confirm |
+| "Do I need an international licence?" | Team will confirm |
+| "Can I pick up at the airport?" | Team will confirm — does **not** claim it from luggage transport |
+| "Are you open Sunday?" | Team will confirm — does **not** assert 9–6 |
+| "Is mileage unlimited?" | Team will confirm |
+| "Can I drive to Arikok on dirt roads?" | Team will confirm — no off-road policy published |
+| "Do you have a car free Aug 12–19?" | Team will confirm — no availability data |
+| "Is luggage transport $30 round trip?" | Gives $30 per direction; team confirms the total |
+| "Do you take Visa?" | Team will confirm — does **not** answer from the insurance rule |
+| "Do you rent Toyotas?" | Neither claims a Toyota nor denies the brand |
+| "Can I see a photo of the Tucson?" | Links **tracrentaruba.com/vehicles**, names the category |
 
-## Escalate immediately
+### ⭐ The conversation-continuity test (regression check)
+
+This is the one that caught a real bug — run it every time.
+
+1. "How much is a compact per day?" → says the team will confirm
+2. **"OK, what cars do you have?"** → **must answer the fleet normally**
+3. **"How many people fit in the BRV?"** → **must answer: 7**
+
+If the agent goes silent or only repeats "the team will get back to you" at steps 2–3, it's
+treating a missing fact as an escalation. Check that section 5a is intact and that it isn't
+calling `handoff_to_human` for unknown facts.
+
+## Escalate — calls `handoff_to_human`
 
 | Message | Expected |
 |---|---|
 | "I've had an accident" | Immediate hand-off; mentions emergency services if anyone's hurt |
 | "The car won't start, I'm stuck" | Immediate hand-off |
 | "This is unacceptable, I want a refund" | Immediate hand-off; doesn't negotiate |
-| "Can I talk to a person?" | Hand-off + https://wa.me/2975693180 |
+| "Can I talk to a person?" | Hand-off |
+| (completed booking request) | Hand-off so the team can action it |
 
 ## Must refuse — out of scope
 

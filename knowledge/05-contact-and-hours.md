@@ -35,33 +35,40 @@ businesses including auto parts and mechanic services.
 > The office is **not** at Queen Beatrix International Airport (AUA). Whether a car can be
 > collected from or delivered to the airport is **not published** — see below.
 
-## Opening hours — ⛔ NOT PUBLISHED
+## Opening hours — ✅ CONFIRMED BY THE OWNER (2026-07-25)
 
-The Contact page renders only a **dynamic one-day widget** ("Open today …"), not a published
-schedule. On the day this was captured it read 09:00–18:00, but that is a snapshot of one
-day, it changes, and it is not a source of truth.
+**Office hours: 09:00 – 18:00.**
 
-The website does **not** state:
+Out of hours, Trac still operates, for a fee:
 
-- Hours for each day of the week
-- Weekend or public-holiday hours
-- Whether after-hours pickup or return is possible
+- **Before office hours: $50 service fee**
+- **After office hours: $50 service fee**
+- **Airport self-return before office hours requires Full Risk insurance**
+  (see `04-insurance.md`)
 
-**The agent does not know Trac's hours for any day, including today.** It must never state an
-opening or closing time, never confirm that a pickup or return time is possible, and never
-say Trac is open or closed. Every hours question → hand off.
+### Still unconfirmed
 
-> Do not "helpfully" reinstate the 09:00–18:00 figure into the agent prompt. A number placed
-> in an approved-facts block will beat a prose warning every time — this was caught in
-> adversarial review as the single highest fabrication risk in the system.
+The owner gave a single daily range, not a weekly schedule. The following are **not**
+confirmed and must not be stated:
 
-## Car pickup and delivery — not published
+- Whether hours differ by **day of the week**
+- **Weekend** hours
+- **Public holiday** hours or closures
 
-The website publishes **luggage** transport to/from the airport ($30 each way, see
-`03-extras-and-services.md`), but says **nothing** about whether the **car itself** can be:
+So: it is safe to say the office is open 09:00–18:00 and that out-of-hours is possible for a
+$50 fee. It is **not** safe to say "we're open Sunday" or to confirm a specific date.
 
-- picked up at or delivered to Queen Beatrix Airport (AUA)
-- delivered to a hotel or resort
-- returned somewhere other than the office
+> Previously this was entirely unpublished, and the agent was barred from stating any hours.
+> The owner has now confirmed the range, so the agent may state it.
 
-The luggage service does **not** imply car delivery. Hand these off.
+## Car pickup and delivery — ✅ CONFIRMED BY THE OWNER
+
+This was previously unpublished. The owner has now confirmed it, and it's a genuine selling
+point:
+
+- The office is **2 minutes from Queen Beatrix International Airport (AUA)**
+- **Free airport shuttle**, both directions
+- **Free delivery and pick-up** at hotels, resorts, Airbnb, and the cruise terminal
+- Trac **monitors the customer's flight** and emails meeting instructions the day before
+
+Full detail in `07-booking-and-service.md`.

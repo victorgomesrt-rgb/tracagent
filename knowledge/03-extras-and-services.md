@@ -21,11 +21,15 @@
 - **Pick-up** — luggage collected **from your location and delivered to the airport**: **$30**
 - The page also describes this as "a $30 one-time fee."
 
-> ⚠️ **Known ambiguity — do not resolve it yourself.** The page states a "$30 one-time fee"
-> *and* lists drop-off ($30) and pick-up ($30) as separate items. It is **not clear whether a
-> round trip costs $30 or $60.** If a customer asks about round-trip luggage transport, give
-> the per-direction figure ($30 each way as listed) and hand off to a human to confirm the
-> total. Never assert a round-trip price.
+The owner confirms luggage transport is **charged per trip**, and is for when **luggage does
+not fit in the rental vehicle**. That matches the website's per-direction listing.
+
+> ⚠️ **Round-trip total is still ambiguous.** The website says "a $30 one-time fee" *and*
+> lists drop-off ($30) and pick-up ($30) separately. Give the per-direction figure and let
+> the team confirm a round trip. Never add the two together.
+
+> Note this is **luggage only**. Delivery of the **car** to a hotel, resort, Airbnb or the
+> cruise terminal is **free** (see `07-booking-and-service.md`).
 
 ## Reserving extras
 
@@ -42,6 +46,5 @@ currency. If a customer asks explicitly, hand off.
 
 - Additional-driver availability or fee
 - GPS / phone holder / cooler or any other add-on
-- Airport delivery **of the car itself** (only *luggage* transport is published)
-- Hotel or resort delivery of the car
+- **Prepaid gas** — the owner confirms it exists, but the price is unknown
 - Cleaning, late-return, or refuelling fees

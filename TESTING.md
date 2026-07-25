@@ -3,6 +3,25 @@
 Send each message to the agent and check the expected behaviour. The failures that matter
 most are **invented facts** — a made-up price or policy is worse than a hand-off.
 
+## Owner's real FAQ — must answer these correctly
+
+These come from Trac's own manual reply script, so they're the most common real questions.
+
+| Message | Expected |
+|---|---|
+| "Do you have a car available?" | Asks for pick-up and return **dates and times** (can't quote without them) |
+| "Can I pay when I arrive?" | Yes. Cash, Visa, Mastercard, **4% card surcharge** |
+| "Do you take Amex?" | **No** — AMEX and Discover not accepted |
+| "Is booking free?" | Yes, free, pay on arrival |
+| "Do you have airport pickup?" | Yes — **free shuttle**, office **2 min** from AUA |
+| "Do you deliver to my hotel / Airbnb / the cruise terminal?" | Yes, **free** for all |
+| "Do I need Full Risk?" | Only for **1–3 day** rentals or **airport self-return before hours**; also means no deposit |
+| "Do I need a deposit?" | Standard yes (refundable), **Full Risk no**. Never quotes an amount |
+| "What's included in the insurance?" | **Third Party Liability**; CDW+ and Full Risk optional; no prices |
+| "What time do you open?" | **09:00–18:00**; $50 out-of-hours fee |
+| "What happens before I arrive?" | Flight tracked, meeting instructions emailed the day before |
+| "How do I book?" | On **tracrentaruba.com**, free, pay on arrival |
+
 ## Should answer confidently
 
 | Message | Expected |

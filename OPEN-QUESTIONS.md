@@ -1,98 +1,133 @@
-# Open questions for Trac — the intake form
+# Open questions for Trac
 
-**This is the highest-value document in the repo.** The agent currently hands off most
-customer questions because Trac's website doesn't publish the answers. Every line filled in
-below turns a hand-off into an instant answer.
+**Updated 2026-07-25.** The owner supplied their manual reply script and answered part of
+this form. What follows is what they've given, what still needs confirming, and what's
+missing.
 
-Send this to the owner. Answers go into `knowledge/`, then into `AGENT_PROMPT.md`.
-
-> Anything left blank stays on the "never answer" list. That's safe — just less useful.
+Anything unanswered stays on the agent's never-answer list. That's safe, just less useful.
 
 ---
 
-## 1. Rates 🔴 most important
+## ✅ Confirmed and live in the agent
 
-- Daily rate per category:
-  - Compact (Kia Rio): 280
-  - Full Mid-Size (Kia K3): 320
-  - Subcompact SUV (Kia Sonet): 320
-  - SUV (Hyundai Tucson): 320
-  - 7-seater SUV (Honda BRV): 320
-  - 11-seater Van (Hyundai Staria): 800
-- Weekly rate or discount? No
-- Monthly / long-term rate? No
-- **Currency — USD or AWG?** USD
-- Is tax included in the quoted price? If not, what is added? 7%
-- Minimum rental period? No
-- High-season dates and any surcharge? No
+booking is free and made on the website · payment on arrival · cash / Visa / Mastercard with
+a 4% card surcharge · no AMEX or Discover · deposit required on standard rentals but not on
+Full Risk · Third Party Liability included · CDW+ and Full Risk optional · Full Risk mandatory
+for 1–3 day rentals and airport self-return before hours · office hours 09:00–18:00 · $50
+before/after-hours fee · office 2 minutes from the airport · free airport shuttle · flight
+tracking · meeting instructions emailed the day before · free delivery and pick-up at hotels,
+resorts, Airbnb and the cruise terminal · free shuttle back after return · luggage transport
+charged per trip
 
-## 2. Insurance 🔴 highest liability
+---
 
-- What coverage is **included** in the rental price? ____
-- What is the **deductible / excess** the customer is liable for? ____
-- Is optional extra coverage available, and what does it cost per day? ____
-- What is **not** covered (tires, glass, undercarriage, unpaved roads, etc.)? ____
-- What should a customer do after an accident or damage? ____
+## 🛑 1. Rates — ANSWERED, BUT NOT YET SAFE TO USE
 
-## 3. Driver requirements 🔴
+The owner gave these under "**Daily** rate per category", currency **USD**:
 
-- Minimum driver age: 18  Maximum age, if any: None
-- Young-driver fee, and the age range it applies to: ____
-- Is a foreign licence accepted? Is an International Driving Permit required? yes
+| Category | Figure given |
+|---|---|
+| Compact (Kia Rio) | 280 |
+| Full Mid-Size (Kia K3) | 320 |
+| Subcompact SUV (Kia Sonet) | 320 |
+| SUV (Hyundai Tucson) | 320 |
+| 7-seater SUV (Honda BRV) | 320 |
+| 11-seater Van (Hyundai Staria) | 800 |
+
+Also given: weekly/monthly discount **No** · currency **USD** · tax **7%** · minimum rental
+period **No** · high season **No**.
+
+### ⚠️ These are NOT in the agent yet, deliberately
+
+**$280 per day for a Kia Rio is far above the Aruba market** (typically USD 35–60/day).
+Read as **weekly**, they line up almost exactly: 280/7 = **$40/day**, 320/7 = **$46/day**,
+800/7 = **$114/day** for an 11-seater. Those are realistic.
+
+So one of these is true, and we cannot tell which:
+
+- **(a)** They're **weekly** rates and the form's "daily" label was misread
+- **(b)** They're genuinely daily (in which case Trac is priced way above market)
+- **(c)** They're a different currency or period
+
+**Confirm with the owner before this goes live.** Quoting $280/day when it's $280/week would
+lose nearly every booking; quoting $40/day when it's $280/day would create a dispute at the
+counter on every single rental.
+
+**Ask exactly this:** *"For a Kia Rio, what does a customer pay for 1 day, and what for 7
+days?"* Two concrete numbers settle it with no ambiguity.
+
+### Also needs a one-word answer
+
+- Is the **7% tax added on top** of these figures, or already included? ____
+- "Minimum rental period: No" — meaning **no minimum** (1 day is fine)? ____
+- "Weekly/monthly discount: No" — but if the figures above *are* weekly, this contradicts.
+  Clarify alongside the question above. ____
+
+## 🛑 2. Driver requirements — one answer needs splitting
+
+- **Minimum driver age: 18. Maximum: none.** ✅ Clear, ready to use once confirmed.
+- **"Is a foreign licence accepted? Is an International Driving Permit required?" → "yes"**
+  ⚠️ That was two questions and one answer. Which is it?
+  - Foreign licence accepted? ____
+  - IDP required? ____
+- Young-driver fee (does any apply between 18 and 25?): ____
 - Minimum time the licence must have been held: ____
-- What documents are needed at pickup? ____
-- Additional driver allowed? Fee? Must they be present? ____
+- Documents needed at pickup: ____
+- Additional driver allowed? Fee? ____
 
-## 4. Payment and deposit 🔴
+## 🛑 3. Languages — this contradicts the owner's other message
 
-- Accepted payment methods (cards, cash, currency): cards, cash, USD & AWG
-- Security deposit amount: ____
-- How is it held (card hold / cash) and when is it released? ____
+The form says: **"Dutch, Portugues"**.
+The owner's script says: **"English and Spanish only."**
 
-## 5. Pickup, delivery and hours 🟠
+The agent is currently **English and Spanish only**, per the script.
 
-- **Can the car be collected at Queen Beatrix Airport (AUA)?** Fee? ____
-- Delivery to a hotel or resort? Which areas, and fee? ____
-- Full opening hours, per day of the week: ____
-- Weekend and public-holiday hours: ____
-- After-hours pickup or return — possible? How? ____
-- Can the car be returned to a different location? ____
+- Should it also handle **Dutch** and **Portuguese**? ____
+  *(If yes, that's a real change: every guardrail phrase would need reviewing in those
+  languages, and I'd want the owner to confirm the agent is allowed to answer in a language
+  their staff may not read when they take over.)*
 
-## 6. Vehicle and use policy 🟠
+## 🔴 4. Prices we know exist but not the amount
+
+- **Deposit amount** on a standard rental, and when it's released: ____
+- **CDW+ price** (per day?): ____
+- **Full Risk price** (per day?): ____
+- **Prepaid gas price**: ____
+- **Luggage transport** — is a round trip $30 or $60? ____
+
+## 🟠 5. The vehicles
 
 - **Are all vehicles automatic?** Any manual? ____
-- Is mileage unlimited? If not, the limit and the per-km charge: ____
-- Fuel policy (full-to-full, etc.) and the refuelling charge: ____
-- **Are unpaved roads / off-road / Arikok National Park allowed?** ____
+  *(Asked constantly by North American visitors. Currently unanswerable.)*
+- Is mileage unlimited? If not, the limit and per-km charge: ____
+- Fuel policy (full-to-full, prepaid, etc.) and the refuelling charge: ____
+- **Are unpaved roads / Arikok / off-road allowed?** ____
 - Smoking policy: ____   Pets: ____   Cleaning fee: ____
-- Late-return grace period and fee: ____
 
-## 7. Booking and cancellation 🟠
+## 🟠 6. Changes and problems
 
-- How does a customer actually reserve — what's the process? ____
-- Is a deposit needed to hold a reservation? ____
-- Cancellation window and any fee: ____
+- Cancellation window and fee: ____
 - No-show policy: ____
-- How quickly does the team confirm a booking request? ____
+- Late-return grace period and fee: ____
+- **Roadside assistance / breakdown procedure**: ____
+- Emergency or after-hours contact number: ____
 
-## 8. Support and escalation
+## 🟠 7. Hours detail
 
+The owner gave 09:00–18:00. Still unknown:
+
+- Do hours differ **by day of the week**? ____
+- **Weekend** hours: ____
+- **Public holiday** hours or closures: ____
+
+## 🟡 8. Small clarifications
+
+- Tone: **Friendly** ✅ (already applied)
+- Payment: **cards, cash, USD & AWG** ✅ — note this adds that **both currencies** are taken
+  at the counter, alongside the 4% card surcharge from the script
+- The business is branded "Toyota Rent A Car Aruba" but the fleet is Kia/Hyundai/Honda.
+  **How should the agent answer "do you have a Toyota?"** ____
+- Can a car be returned somewhere other than the office (one-way)? ____
 - Is there a **voice phone number** customers can call? ____
-- Roadside assistance / breakdown procedure: ____
-- Emergency or after-hours contact: ____
-- Who should receive booking requests and escalations from the agent? ____
-
-## 9. Clarifications on existing website content
-
-- **Luggage transport: is a round trip $30 or $60?** (The site says both.) ____
-- The site is branded "Toyota Rent A Car Aruba" but the fleet is Kia/Hyundai/Honda —
-  **how should the agent answer "do you have a Toyota?"** ____
-- The insurance page's "coverage comparison" section is empty — what belongs there? ____
-- Is there anything behind the homepage's "More" menu we haven't seen? ____
-- How many child seats of each type do you have? ____
-
-## 10. Voice and limits
-
-- Preferred tone (formal / friendly / casual): Friendly
-- Languages beyond English and Spanish (Papiamento? Dutch?): Dutch, Portugues
-- **Anything the agent must never say or promise:** ____
+- Which staff number/email should receive booking requests and escalations? ____
+- Anything the agent must **never** say or promise: ____

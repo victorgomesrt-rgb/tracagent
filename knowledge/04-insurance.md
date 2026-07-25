@@ -1,43 +1,54 @@
 # Insurance
 
-> Source: tracrentaruba.com/insurance · Status: VERIFIED from the official website
-> This page publishes **one policy only.** Everything else about insurance is unpublished.
+> Sources: tracrentaruba.com/insurance (the third-party refusal) and the **Trac owner**,
+> 2026-07-25 (the coverage structure). Owner information is authoritative.
 
-## The one published rule
+## What's included
 
-**Trac does not accept third-party insurance.** This explicitly includes:
+**Third Party Liability Insurance is included** in every rental.
 
-- Credit-card coverage — **Visa** and **MasterCard** are named
-- Personal insurance policies
+## Optional coverage
 
-The website states this in both English and Spanish, and adds that any protection offered by
-a credit card or a personal insurer is **entirely independent of Trac Car Rental**.
+- **CDW+**
+- **Full Risk**
 
-### How to say it to a customer
+**Prices for CDW+ and Full Risk are not published.** Never quote a figure for either.
 
-> "Trac doesn't accept third-party insurance — that includes credit-card coverage like Visa
-> or MasterCard, and personal policies. Any coverage your card or insurer offers is separate
-> from Trac. Let me connect you with our team for the exact coverage options and costs."
+## When Full Risk is mandatory
 
-### ⚠️ Do not let this be misread as a payment restriction
+Full Risk is **required**, not optional, in these two cases:
 
-Visa and MasterCard appear on the Trac website **only** in the context of refusing their
-*insurance*. This is **not** a statement about accepted payment methods. If a customer asks
-"do you take Visa?", do **not** answer from this rule — accepted payment methods are not
-published anywhere. Hand off.
+1. **Rentals of 1–3 days**
+2. **Airport self-return before office hours**
 
-## What is NOT published (must hand off)
+Trac also recommends Full Risk generally for a stress-free rental, and it carries a practical
+benefit: **Full Risk rentals require no deposit** (see `07-booking-and-service.md`).
 
-The insurance page carries a heading — "Insurance coverage comparison" — with **no content
-beneath it.** As a result, none of the following exists on the website:
+## Third-party insurance is not accepted
 
-- What insurance/waiver is **included** in a rental
-- What optional coverage can be bought, and its **cost**
-- The **deductible / excess** a customer is liable for
+**Trac does not accept third-party insurance**, including credit-card coverage (**Visa,
+MasterCard**) and personal policies. Any coverage from a card or personal insurer is entirely
+independent of Trac. The website states this in English and Spanish.
+
+### ⚠️ This is about insurance, not payment
+
+Visa and Mastercard **are accepted as payment methods** (with a 4% card surcharge). The
+refusal above applies only to their *insurance coverage*. Never let a customer walk away
+thinking their card won't be accepted at the counter.
+
+### How to say it
+
+> "Trac includes third party liability insurance, and there are two optional upgrades, CDW+
+> and Full Risk. We don't accept outside insurance like credit card coverage, so that would
+> be separate from Trac. For 1 to 3 day rentals Full Risk is required. The team can confirm
+> the exact cost for you."
+
+## Still not published
+
+- The **cost** of CDW+ or Full Risk
+- The **deductible / excess** on a standard rental or with CDW+
 - What is **excluded** from coverage (tires, glass, undercarriage, unpaved roads, etc.)
-- Whether proof of any insurance is required at pickup
 - What happens after an accident or damage
 
-**Every question touching coverage, cost, deductible, or exclusions must be handed to a
-human.** This is the single highest-liability gap in the knowledge base — a wrong answer
-here creates a real financial expectation for the customer.
+Hand these to the team. Coverage cost and deductible are the highest-liability numbers in the
+business, and a wrong answer creates a real financial expectation.

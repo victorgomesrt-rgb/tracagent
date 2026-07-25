@@ -1,7 +1,16 @@
 # Sources and provenance
 
-Every fact in `knowledge/` traces to a page on **https://tracrentaruba.com**, captured on
-**2026-07-25**. Nothing here is inferred, estimated, or supplied from outside knowledge.
+Every fact in `knowledge/` comes from one of two authoritative sources. Nothing is inferred,
+estimated, or supplied from outside knowledge.
+
+| Source | Date | Covers |
+|---|---|---|
+| **The Trac owner** — their current manual reply script | 2026-07-25 | Booking, payment, deposit, insurance structure, hours, airport shuttle, delivery, returns, luggage. See `knowledge/07-booking-and-service.md` |
+| **https://tracrentaruba.com** — 7 pages audited | 2026-07-25 | Company, fleet, child seats, luggage pricing, the third-party insurance refusal, contact, Aruba context |
+
+**Where they differ, the owner wins.** Several things the website left unpublished are now
+confirmed: airport shuttle (free), hotel/resort/Airbnb/cruise delivery (free), payment
+methods, office hours, and the insurance tiers.
 
 ## Pages audited
 

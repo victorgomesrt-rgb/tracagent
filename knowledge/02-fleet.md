@@ -14,6 +14,14 @@
 | SUV (7 seaters) | Honda BRV | 7 | 5 |
 | VAN (11 seaters) | Hyundai Staria | 11 | 3 |
 
+## Photos
+
+Every category is pictured on **https://tracrentaruba.com/vehicles**. When a customer asks
+to see a car, link that page and name the category to look at.
+
+The agent cannot send images, and must not describe colour, interior, trim or condition —
+none of that is published, and the listing is "or similar" anyway.
+
 ## Key facts
 
 - **Every vehicle category has air conditioning.**

@@ -1,0 +1,16 @@
+# Secrets — never commit credentials
+.env
+.env.local
+*.key
+
+# Local data — may contain customer phone numbers and transcripts (PII)
+data/
+*.jsonl
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+node_modules/

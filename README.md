@@ -32,11 +32,24 @@ this repo.
 ## Setup with Kapso
 
 1. Open your Kapso Agent node.
-2. Copy everything below the divider in **[`AGENT_PROMPT.md`](AGENT_PROMPT.md)** into the
-   `system_prompt` field. It's self-contained — all approved knowledge is inline.
-3. Set `temperature: 0.0` (factual accuracy matters far more than creativity here).
+2. Select **all** of [`kapso/system-prompt.txt`](kapso/system-prompt.txt) and paste it into
+   the **System Prompt** field, replacing whatever is there. That file is generated from
+   `AGENT_PROMPT.md` and contains **only** the prompt — nothing to trim.
+3. **Model settings:**
+
+   | Setting | Value | Why |
+   |---|---|---|
+   | Temperature | **0.0** | The single most important setting. Higher values invent facts. |
+   | Max iterations | 10 | Fine — the agent only calls one tool |
+   | Max tokens | 8192 | Fine — it's a ceiling; the prompt enforces short replies |
+
 4. Enable the **`handoff_to_human`** tool — the prompt calls it by name.
 5. Test with the scenarios in [`TESTING.md`](TESTING.md) before going live.
+
+> ⚠️ **Replace any default prompt entirely — do not merge.** Kapso's starter prompt tells the
+> agent to handle "pricing", "airport transportation", "roadside assistance" and to "confirm"
+> bookings. Trac publishes none of those, and the agent must never confirm a booking. Mixing
+> the two re-introduces exactly the fabrication risk this repo exists to prevent.
 
 ## Repo layout
 

@@ -51,6 +51,10 @@ this repo.
 > bookings. Trac publishes none of those, and the agent must never confirm a booking. Mixing
 > the two re-introduces exactly the fabrication risk this repo exists to prevent.
 
+> 👉 **New to this project, or picking it back up? Start with
+> [`HANDOFF.md`](HANDOFF.md)** — current state, the stack (Kapso + Lovable only), the one
+> open blocker, and what not to rebuild.
+
 ## Repo layout
 
 | Path | What it is |
@@ -63,8 +67,11 @@ this repo.
 | `knowledge/05-contact-and-hours.md` | WhatsApp, email, address, hours caveat |
 | `knowledge/06-aruba-guide.md` | Island context for local colour |
 | `knowledge/99-unverified.md` | ⛔ Questions the agent must **never** answer |
+| `HANDOFF.md` | ⭐ Current state, stack, blockers, and the command-center design |
 | `SOURCES.md` | Provenance — which page each fact came from |
-| `OPEN-QUESTIONS.md` | Intake questionnaire for the owner |
+| `QUESTIONS-FOR-OWNER.md` / `.docx` | Owner-facing questionnaire |
+| `OPEN-QUESTIONS.md` | Working notes on what's answered vs still missing |
+| `kapso/ADDING-RATES.md` | How to add rates safely once confirmed |
 | `TESTING.md` | Scenarios to verify behaviour before launch |
 
 ## Maintaining it

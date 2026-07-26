@@ -15,7 +15,7 @@ retired path.
 | **Model** | **Claude Sonnet 5** (via Kapso's OpenRouter selection) |
 | **Client-facing number** | **+1 202-894-7105** ("Trac Car Rental" in Kapso) |
 | **Knowledge base** | This repo. `knowledge/*.md` for humans, `kapso/system-prompt.txt` for the agent |
-| **Staff command center** | **Lovable** (frontend) + **own Supabase project** (auth, RLS, Vault, edge functions, storage) — **designed, not built yet** |
+| **Staff command center** | **Lovable** (frontend) + **own Supabase project** (auth, RLS, Vault, edge functions, storage). Lives in **`~/command-center`**, its own repo — security floor written, Supabase project not yet created |
 
 ### ⛔ Not used. Do not reintroduce.
 
@@ -28,7 +28,11 @@ These were explored earlier and dropped. If you see them referenced anywhere, it
 
 Two local directories are leftovers from that exploration and are **not** part of this
 project: `~/PlatoAgent` (Bun/Twilio bot) and `~/trac-handoff` (Railway webhook service, never
-deployed). Ignore both. Everything current lives in this repo.
+deployed). Ignore both.
+
+**`~/command-center` is different — it is current.** That's the agency platform (Lovable +
+own Supabase), kept out of this repo on purpose: this one is Trac's deliverable and may be
+handed over or cloned per client, so the platform's security code does not belong in it.
 
 ---
 
@@ -88,11 +92,16 @@ EN/ES per the script.
 
 ---
 
-## Command center — designed, not built
+## Command center — moved to `~/command-center`
 
 A multi-tenant agency app: the operator provisions clients, each client logs in and sees only
-their own inbox, files, quote calculator, calendar. Full research is in this repo's history;
-the decisions that matter:
+their own inbox, files, quote calculator, calendar.
+
+**It now has its own repo at `~/command-center`.** Start there, not here — its README has the
+runbook and `LOVABLE-PROMPT.md` has the standing rules plus the build prompts in order. What
+follows is kept only so the reasoning stays with the rest of the project history.
+
+The decisions that matter:
 
 1. **Use your own Supabase project, not Lovable Cloud.** Effectively irreversible — no
    migration path either way, and Cloud locks its region on enable. You need `psql`,
@@ -114,10 +123,10 @@ the decisions that matter:
    functions into your project, so keep the service-role/minting function under your control
    and treat any AI-generated change to it as a red flag. Let Lovable generate UI freely.
 
-**Build order:** (1) empty security skeleton, no data · (2) one throwaway table + isolation
-test harness, **proven to fail before trusting it** — RLS fails silently · (3) verify Kapso
-TTL/origin/revocation behaviour by hand · (4) the minter · (5) Lovable shell · (6) inbox
-iframe · then files, quote calculator, calendar, provisioning.
+**Build order** (revised — Lovable builds the app; only the security floor is hand-written):
+(1) ✅ security floor SQL, written · (2) create the Supabase project and apply it · (3) connect
+Lovable, work through the prompts · (4) hand-write `mint-inbox-embed` yourself · (5) prove
+cross-tenant isolation with two throwaway tenants **before** real client data.
 
 **Four things to verify with curl before building on them:** does a minted embed URL opened
 as a bare top-level tab fail; does `expires_at` cut off an already-open iframe; does Kapso
@@ -151,4 +160,4 @@ Then re-paste into Kapso. `AGENT_PROMPT.md` and `knowledge/` must not drift apar
 
 1. Get the **1-day / 7-day Rio price** from the owner → rates live in ~5 minutes
 2. Get the rest of `QUESTIONS-FOR-OWNER.docx` filled in
-3. Start the command center at build step 1 (own Supabase project, empty skeleton)
+3. Command center: create the Supabase project and apply the floor — see `~/command-center`

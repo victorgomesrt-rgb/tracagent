@@ -103,10 +103,12 @@ follows is kept only so the reasoning stays with the rest of the project history
 
 The decisions that matter:
 
-1. **Use your own Supabase project, not Lovable Cloud.** Effectively irreversible — no
-   migration path either way, and Cloud locks its region on enable. You need `psql`,
-   `pg_policies`, role impersonation for RLS tests and PITR when you hold several companies'
-   customer conversations.
+1. **Use your own Supabase project, not Lovable Cloud.** Lovable auto-provisions Cloud the
+   moment a prompt needs a backend, so connect your own project *first*. Leaving Cloud later
+   is possible but manual (export → remove Cloud → reconnect → rebuild schema → move data),
+   and the reverse isn't supported. You want `psql`, `pg_policies`, role impersonation for
+   RLS tests, your own billing and PITR when you hold several companies' customer
+   conversations.
 2. **Never store Kapso embed tokens.** Kapso mints them via
    `POST /platform/v1/inbox_embeds` with `expires_at`, `allowed_origins` and scope, returning
    the token once. So the token is disposable, not configuration — and the "protect the token

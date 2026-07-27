@@ -54,7 +54,8 @@
 | Can I drive on unpaved roads / off-road / into Arikok? | Not published |
 | Is smoking allowed? Are pets allowed? Cleaning fee? | Not published |
 | What's the late-return grace period or fee? | Not published |
-| Do you rent Toyotas? | Brand is "Toyota Rent A Car Aruba" but **no Toyota is in the published fleet** |
+| Do you rent Toyotas? | **No Toyota is in the published fleet** (Kia, Hyundai, Honda) |
+| Is this Toyota Rent A Car? / did you change your name? | Trac's **former** name. Don't confirm or deny it, say the team will confirm |
 
 ## 🔴 Emergencies — always escalate immediately, never troubleshoot
 

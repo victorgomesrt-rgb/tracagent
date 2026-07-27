@@ -125,8 +125,15 @@ The owner gave 09:00–18:00. Still unknown:
 - Tone: **Friendly** ✅ (already applied)
 - Payment: **cards, cash, USD & AWG** ✅ — note this adds that **both currencies** are taken
   at the counter, alongside the 4% card surcharge from the script
-- The business is branded "Toyota Rent A Car Aruba" but the fleet is Kia/Hyundai/Honda.
-  **How should the agent answer "do you have a Toyota?"** ____
+- ✅ **"Toyota Rent A Car Aruba" is the former name** (owner, 2026-07-27). Removed from the
+  agent. The fleet answer stands on its own: Kia/Hyundai/Honda, no Toyota.
+- 🟠 **Follow-up the owner still needs to answer:** returning customers, old directory
+  listings and old reviews will keep surfacing the previous name, so someone will eventually
+  message asking *"is this Toyota Rent A Car?"* Right now the agent neither confirms nor
+  denies it and says the team will confirm, which is safe but clumsy for a simple identity
+  question. **Should it just say "that was our previous name, we're Trac now"?** ____
+  *(Asking rather than assuming, because we don't know whether the rebrand involved a
+  franchise or licensing change the owner would rather the agent not reference at all.)*
 - Can a car be returned somewhere other than the office (one-way)? ____
 - Is there a **voice phone number** customers can call? ____
 - Which staff number/email should receive booking requests and escalations? ____

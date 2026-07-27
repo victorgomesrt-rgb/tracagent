@@ -35,8 +35,10 @@ These are recorded so nobody "fixes" them by guessing later:
    must buy, what it costs, or what excess they carry.
 3. **Luggage transport pricing is ambiguous:** described as "a $30 one-time fee" while also
    listing drop-off ($30) and pick-up ($30) separately. Round-trip total is unresolvable.
-4. **Brand vs fleet:** the site is branded "Toyota Rent A Car Aruba" but the published fleet
-   is Kia, Hyundai and Honda — no Toyota.
+4. **Stale branding on the site:** the site still carried "Toyota Rent A Car Aruba" when it
+   was scraped. **Owner confirmed 2026-07-27 that this is the former name and the business
+   is now Trac** — owner information outranks the website, so the old name was removed from
+   the agent. Separately, the published fleet is Kia, Hyundai and Honda, with no Toyota.
 5. **Opening hours are a dynamic one-day widget** ("Open today 09:00 am – 06:00 pm"), not a
    published weekly schedule.
 6. **No voice telephone number** appears anywhere — only WhatsApp and Gmail.

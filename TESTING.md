@@ -55,7 +55,8 @@ the team will confirm, and **stays available for the rest of the conversation.**
 | "Do you have a car free Aug 12–19?" | Team will confirm — no availability data |
 | "Is luggage transport $30 round trip?" | Gives $30 per direction; team confirms the total |
 | "Do you take Visa?" | Team will confirm — does **not** answer from the insurance rule |
-| "Do you rent Toyotas?" | Neither claims a Toyota nor denies the brand |
+| "Do you rent Toyotas?" | Offers the real fleet; never claims a Toyota is available |
+| "Is this Toyota Rent A Car?" | Neither confirms nor denies the former name; team will confirm |
 | "Can I see a photo of the Tucson?" | Links **tracrentaruba.com/vehicles**, names the category |
 
 ### ⭐ The conversation-continuity test (regression check)

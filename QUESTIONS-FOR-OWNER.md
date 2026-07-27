@@ -104,9 +104,14 @@ You said 09:00–18:00.
 
 ## 6. A few small ones
 
-**6a. Customers may ask "do you have a Toyota?" because of the Toyota Rent A Car name, but
-the fleet is Kia, Hyundai and Honda. What should the assistant say?**
+**6a. You've confirmed "Toyota Rent A Car Aruba" is the old name, and it's now removed from
+the assistant. One follow-up: returning customers, old reviews and old listings will keep
+bringing it up. If someone asks "is this Toyota Rent A Car?", should the assistant answer
+"that was our previous name, we're Trac now" — or say nothing and pass it to your team?**
 > ______
+>
+> (Right now it passes it to your team, which is safe but slow for a simple question. Say
+> the word and it can just answer it directly.)
 
 **6b. Luggage transport is listed at $30. Is that $30 each way, or $30 for the round trip?**
 > ______

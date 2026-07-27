@@ -5,17 +5,26 @@
 ## Identity
 
 - **Business name:** Trac Car Rental
-- **Also branded as:** "Toyota Rent A Car Aruba" (this appears in the website logo/header)
 - **Reestablished:** 2023
 - **Ownership:** A local, family-owned business, described as "intimately connected to the
   captivating island of Aruba"
 - **Tagline used on the site:** "Aruba — One Happy Island"
 
-> ⚠️ **Brand vs fleet note (important for answering customers).** The business is branded
-> "Toyota Rent A Car Aruba", but the published fleet contains **no Toyota vehicles** — the
-> listed models are Kia, Hyundai, and Honda. If a customer asks for a Toyota specifically,
-> do **not** claim Toyota models are available and do **not** deny the brand name. Offer the
-> actual fleet and hand off to a human to confirm.
+> ⚠️ **Former name (owner-confirmed 2026-07-27).** The business used to trade as "Toyota
+> Rent A Car Aruba" and was renamed to **Trac**. The old name still appears in the website
+> logo/header at time of scraping, and will linger in directory listings, old reviews and
+> returning customers' memories for a while.
+>
+> The agent **does not use, confirm, or deny the old name.** Why it isn't simply "yes, that
+> was us": we don't know why the rebrand happened or how the owner wants it characterised,
+> and a wrong guess about a franchise or licensing change is exactly the kind of thing this
+> project refuses to improvise. It sits on the never-answer list until the owner says
+> otherwise. See the open question in `OPEN-QUESTIONS.md`.
+>
+> **Fleet is a separate fact and still stands:** the published fleet contains **no Toyota
+> vehicles** — the listed models are Kia, Hyundai, and Honda. If a customer asks for a Toyota
+> specifically, do **not** claim Toyota models are available. Offer the actual fleet and say
+> the team will confirm.
 
 ## Location
 
